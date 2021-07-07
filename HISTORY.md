@@ -1,5 +1,10 @@
 # Historical logs
 
+## Version 0.1.1
+
+- Refactored fibos function
+
+
 ## Version 0.1.0
 
 - Release date: TBD
