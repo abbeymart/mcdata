@@ -4,6 +4,19 @@
 
 package mcdata
 
+type LocaleContent map[string]interface{}
+type Locale map[string]LocaleContent
+type LocaleOptions struct {
+	LocaleType string
+	Language   string
+}
+
+type MessageObject map[string]string
+
+const (
+	DefaultLanguage = "en-US"
+)
+
 // simple functional types
 // PredicateType
 type PredicateType func(val interface{}) bool
